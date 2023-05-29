@@ -16,3 +16,22 @@ body {
      background-color:ivory;
     
     }
+
+.notice { 
+          font-weight: bold;
+          font-size: 24px;
+        }
+
+ #joke {
+          color: lightcoral;    
+          font-weight: bold;
+          font-size: 18px;
+       }
+     
+
+     /*<link rel="stylesheet" href="styles.css" used to link the index and css file. />*/
+     /*Three selectors,*/
+     /* Type selector is a selector that targets a html element e.g. h1, li,p,body, have a html element on index like <h1> text </h1> , and then on css h1{} */
+     /* class selector is class = "text",(in index), then on css .text{} , usage when you want the same change for multiple */
+     /*ID selector is id = "text",(in index) then on css #text{} , usage when you want unique change for one */ 
+     
