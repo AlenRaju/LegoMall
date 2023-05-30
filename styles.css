@@ -1,15 +1,19 @@
 
 h1 {
-    color: black;
-    background-color: springgreen;
+    padding: 0 0 0 750px;
+    color: black; 
     font-family: Arial;
     font-size: 48px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: springgreen;
    }
 
 h2 {
-    background-color: springgreen;
     font-family: Arial;
-    font-size: 32px
+    font-size: 32px;
+    border-radius: 9px;
+    background-color: springgreen;
    }
 
 body {
@@ -29,7 +33,7 @@ body {
        }
      
 
-     /*<link rel="stylesheet" href="styles.css" used to link the index and css file. />*/
+     /*<link rel="stylesheet" href="styles.css"/> used to link the index and css file and needs to be within the head tag.*/
      /*Three selectors,*/
      /* Type selector is a selector that targets a html element e.g. h1, li,p,body, have a html element on index like <h1> text </h1> , and then on css h1{} */
      /* class selector is class = "text",(in index), then on css .text{} , usage when you want the same change for multiple */
